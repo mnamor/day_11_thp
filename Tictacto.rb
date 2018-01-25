@@ -71,7 +71,7 @@ class Game
       @turns += 1
     end
   end
-  #
+  # dfinition des tours
   def play_turn
     puts "#{@players[@turns%2].name} c'est à votre tour de jouer :"
     case_selected = ""
